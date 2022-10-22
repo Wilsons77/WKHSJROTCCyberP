@@ -13,7 +13,7 @@ https://github.com/Wilsons77/WKHSJROTCCyberP/archive/refs/heads/main.zip
 
 
 
-## WIndows:
+## Windows:
 Extract the files you downloaded from here to your Desktop or Downloads. After they are extracted go to where they are located and right click the Windows.bat and select run as administrator. If you do not perform this step it will not be able to perform it's entended task. 
 
 The options you have on this script will not fix all issues. You will need to make sure to check stuff like windows defender. Make sure it is up to date and run a scan of the computer. Look for programs that shouldn't be installed. 
