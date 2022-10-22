@@ -25,13 +25,13 @@ The options you have on this script will not fix all issues. You will need to ma
 After downloading the files from here make sure to unzip them into the downloads folder. 
 Please follow all these commands in order and enter them only one line at a time. Open up terminal on the server and follow along. # Don't type out stuff that is enclosed with parentheses.
 
-**cd ~/Downloads/
-ls**
+**cd ~/Downloads/**
+**ls**
 
 (You should see a folder named WKHSJROTCCyberP-main. If not you may of unziped the file else where.)
 
-**cd WKHSJROTCCyberP-main
-cd linux
+**cd WKHSJROTCCyberP-main**
+**cd linux**
 **ls**
 
 (You will see the file linux.sh listed and a folder named referenceFiles)
@@ -40,7 +40,7 @@ cd linux
 
 (It will prompt you for your password to elevate to root)
 
-**chmod +x linux.sh
-.\linux.sh**
+**chmod +x linux.sh**
+**.\linux.sh**
 (You will be prompted to make a selection of what to run in the script)
 
