@@ -163,6 +163,31 @@ set /p answer=Have you answered all the forensics questions?[y/n]:
 	goto :menu
 
 :badFiles
+	@echo off
+	set /p FILETYPE=What kind of file type do you need to find?:
+	:: the file to look for. (In this case 'myFile.!FILETYPE!')
+	set filename=*.!FILETYPE!
+
+	:: the drive or path to search. (In this case searching current drive)
+	set searchPath="C:\users"
+
+	:: If the file is found. This variable will be set
+	set foundFilePath=
+
+	:: echos all found paths and returns the last occurrance of the file path
+	FOR /R "%searchPath%" %%a  in (%filename%) DO (
+    	IF EXIST "%%~fa" (
+        echo "%%~fa" 
+        SET foundFilePath=%%~fa
+   			 )
+	)
+
+	IF EXIST "%foundFilePath%" (
+ 	   echo The foundFilePath var is set to '%foundFilePath%'
+	) else (
+	    echo Could not find file '%filename%' under '%searchPath%'
+	)
+	pause
 	goto :menu
 
 :services
