@@ -21,7 +21,7 @@ The options you have on this script will not fix all issues. You will need to ma
 
 
 
-**Linux:**
+## ** Linux: **
 After downloading the files from here make sure to unzip them into the downloads folder. 
 Please follow all these commands in order and enter them only one line at a time. Open up terminal on the server and follow along. # Don't type out stuff that is enclosed with parentheses.
 
