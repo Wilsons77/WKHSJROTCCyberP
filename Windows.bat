@@ -164,7 +164,7 @@ set /p answer=Have you answered all the forensics questions?[y/n]:
 
 :badFiles
 	@echo off
-	set /p FILETYPE=What kind of file type do you need to find?:
+	set /p FILETYPE=What kind of file type do you need to find? Only put the file extension MP3,JPG,MOV:
 	:: the file to look for. (In this case 'myFile.!FILETYPE!')
 	set filename=*.!FILETYPE!
 
