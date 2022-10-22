@@ -12,7 +12,7 @@ https://github.com/Wilsons77/WKHSJROTCCyberP/archive/refs/heads/main.zip
 
 
 
-Windows:
+## WIndows:
 Extract the files you downloaded from here to your Desktop or Downloads. After they are extracted go to where they are located and right click the Windows.bat and select run as administrator. If you do not perform this step it will not be able to perform it's entended task. 
 
 The options you have on this script will not fix all issues. You will need to make sure to check stuff like windows defender. Make sure it is up to date and run a scan of the computer. Look for programs that shouldn't be installed. 
@@ -21,26 +21,26 @@ The options you have on this script will not fix all issues. You will need to ma
 
 
 
-## ** Linux: **
+##  Linux: 
 After downloading the files from here make sure to unzip them into the downloads folder. 
 Please follow all these commands in order and enter them only one line at a time. Open up terminal on the server and follow along. # Don't type out stuff that is enclosed with parentheses.
 
-cd ~/Downloads/
-ls
+**cd ~/Downloads/
+ls**
 
 (You should see a folder named WKHSJROTCCyberP-main. If not you may of unziped the file else where.)
 
-cd WKHSJROTCCyberP-main
+**cd WKHSJROTCCyberP-main
 cd linux
-ls
+**ls**
 
 (You will see the file linux.sh listed and a folder named referenceFiles)
 
-su -
+**su -**
 
 (It will prompt you for your password to elevate to root)
 
-chmod +x linux.sh
-.\linux.sh
+**chmod +x linux.sh
+.\linux.sh**
 (You will be prompted to make a selection of what to run in the script)
 
