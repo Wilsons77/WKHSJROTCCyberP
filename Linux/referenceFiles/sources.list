@@ -10,13 +10,3 @@ deb http://us.archive.ubuntu.com/ubuntu/ trusty main restricted universe multive
 ###### Ubuntu Update Repos
 deb http://us.archive.ubuntu.com/ubuntu/ trusty-security main restricted universe multiverse 
 deb http://us.archive.ubuntu.com/ubuntu/ trusty-updates main restricted universe multiverse 
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
