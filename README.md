@@ -1,3 +1,4 @@
+
 # WKHSJROTCCyberP
 This will cover both the Windows and Linux scripts. Not all of the commands in them will be helpful to all images. Make sure to FULLY READ all the readme files on each image. 
 
@@ -26,12 +27,15 @@ After downloading the files from here make sure to unzip them into the downloads
 Please follow all these commands in order and enter them only one line at a time. Open up terminal on the server and follow along. # Don't type out stuff that is enclosed with parentheses.
 
 **cd ~/Downloads/**
+
 **ls**
 
 (You should see a folder named WKHSJROTCCyberP-main. If not you may of unziped the file else where.)
 
 **cd WKHSJROTCCyberP-main**
+
 **cd linux**
+
 **ls**
 
 (You will see the file linux.sh listed and a folder named referenceFiles)
@@ -41,6 +45,8 @@ Please follow all these commands in order and enter them only one line at a time
 (It will prompt you for your password to elevate to root)
 
 **chmod +x linux.sh**
+
 **.\linux.sh**
+
 (You will be prompted to make a selection of what to run in the script)
 
