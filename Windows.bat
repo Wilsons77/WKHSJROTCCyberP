@@ -370,7 +370,7 @@ set /p answer=Have you answered all the forensics questions?[y/n]:
 		echo !userRem! has been removed from !grp!
 	)
 	if "%answer%"=="back" (
-		goto :group
+		goto :menu
 	)
 
 	set /p answer=Would you like to go check again?[y/n]
