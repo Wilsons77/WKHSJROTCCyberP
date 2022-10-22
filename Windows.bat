@@ -28,7 +28,7 @@ set /p answer=Have you answered all the forensics questions?[y/n]:
 	echo "3)Disable a user			12)remote Desktop Config"
 	echo "4)Change all passwords		13)Enable auto update"
 	echo "5)Disable guest/admin	        14)Security options"
-	echo "6)Set password policy		15)Audit the machine	
+	echo "6)Set password policy		15)Audit the machine"	
 	echo "7)Set lockout policy		16)Edit groups"
 	echo "8)Enable Firewall"
 	echo "9)Search for media files"
